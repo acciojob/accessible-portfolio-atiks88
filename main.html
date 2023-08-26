@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessible Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <section>
-<img src="./girl.png" width="400px" alt="image">
-<h1>Accio Student</h1>
-<li>
-  <ul>
-    <li>hi vith</li>
-    <li>hi vit</li>
-    <li>hi vih</li>
-  </ul>
-</li>
-<nav>
-  <div>about us</div>
-  <div>about us</div>
-  <div>about us</div>
-  <div>about us</div>
-</nav>
-  </section>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 role="heading">My Portfolio</h1>
+        <section>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/BassetHound_profil.jpg" alt="My Profile Picture" role="img">
+            <p>A passionate web developer with a focus on accessibility and user experience.</p>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <ul role="list">
+                <li role="listitem">Accessible Blog Template</li>
+                <li role="listitem">E-commerce Website Redesign</li>
+                <li role="listitem">Responsive Portfolio Showcase</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
